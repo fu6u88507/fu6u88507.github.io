@@ -1,82 +1,59 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 5px rgba(0,0,0,.4);
-    align-items: center;
-    padding: 7px 20px;
-    position: fixed;
-    width: 100%;
-    background: white;
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
 }
 
-.logo {
-    padding: 10px;
-    letter-spacing: 2px;
-    cursor: pointer;
+
+.bg-light{
+    background-color: white!important;
 }
 
-.menu ul{
-  list-style: none;  
-  display: flex;
+header{
+    box-shadow: 0 0 5px rgb(141, 141, 141);
 }
 
-.menu ul a{
-   text-decoration: none;
-   color: black;
-   display: block;
-   padding: 10px;
-   letter-spacing: 2px;
+.head {
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
-.menu ul a:hover{
-    background: rgb(219, 218, 218);
- }
-.logo:hover {
-    background: rgb(219, 218, 218);
+.container h1 {
+    text-align: center;
+    margin: 40px 0;
 }
 
-.cover{
-    max-width: 1500px;
-    margin: 0 auto;
-}
-.cover img {
-    width: 100%;
-}
-
-.container {
-    padding: 40px 20px;
+.divider {
+    height: 1px;
+    /* padding: 10px; */
+    border-bottom: 1px solid #e2dede;
+    margin: 20px;
 }
 
-.container h2 {
-    padding: 10px 0;
-    border-bottom: 1px solid rgb(212, 212, 212);
+.container desc {
+    padding: 40px;
 }
 
-.projects .items {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-.projects .house {
-   position: relative;
-   margin: 10px; 
-   flex-basis: 20%;
-   flex-grow: 1;
+.container.container.row{
+    
+} 
+
+.products {
+    background-color: rgb(236, 236, 236);
+    padding: 40px 0;
 }
 
-.projects .house img{
-    width: 100%;
- }
+.products container hs1{
+    margin: 100px;
+}
 
-.projects .house .label{
-    position: absolute; 
-    top: 0;
-    left: 0;
-    background: #000;
-    color: white;
-    padding: 10px;
+.form-group-center {
+    text-align: center;
+}
+
+.btn-primary{
+    margin: 20px;
+
+}
+
+.category {
+    padding: 40px 0;
 }
