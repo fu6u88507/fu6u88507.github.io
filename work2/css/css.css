@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 218, 218);
+}
+.leaf{
+    background-image: url(/img/3423304-02.png);
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border: 1px black solid;
+    position:static;}
+
+.search {
+    border: 0.5px rgb(138, 138, 138) solid;
+    border-radius: 3px;
+    margin: 20px 0px 0px 20px;
+}
+
+.icon1{
+    width: 25px;
+    height: 25x;
+    margin: 2px 1px -2px 0 ;
+}  
+
+
+.img1{
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+width: 100px;
+height:100px;
+border-radius: 50%;
+background-color: rgb(73, 67, 67);
+margin: 0 auto;
+margin-bottom: 50px;
+margin-top: 150px;
+animation: facein 3s ease ;}
+@keyframes facein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.img {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(233, 233, 233);
+    border: black 1px;
+    margin: 0 0 100px 0;
+    animation: banner 10s infinite;
+    animation: facein 3s ease ;
+    background-size: cover;
+    background-image: url();
+    box-shadow:3px 3px 10px 1px #cccccc;
+    
+}
+    
+.img :hover {
+    background-image: url("/work2/img/pexels-la-miko-3616764.jpg");
+
+}
+
+@keyframes facein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display:inline;
+}
+
+nav ul li {
+    list-style: none;
+    display:inline;
+}
+nav ul li a {
+    text-decoration:none;
+    color:rgb(136, 136, 136);
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+nav ul li a:hover{
+    opacity: 1;
+    opacity 2s ease-in-out;
+}
+
+.wordA{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(97, 97, 97);
+    margin-bottom: 100px;
+   
+}
+
+.circle1{
+    background-color: rgb(139, 139, 139);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    animation: facein 1s ease ;}
+@keyframes facein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }  
+}
+
+.circle2{
+    background-color: rgb(139, 139, 139);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 auto;
+
+    animation: facein 3s ease ;}
+@keyframes facein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }  
+}
+.circle3{
+    background-color: rgb(139, 139, 139);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    animation: facein 6s ease ;}
+@keyframes facein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }  
+}
+
+.btn {
+    width: 100px;
+    height: 350px;
+    color: rgb(133, 133, 133);
+    border: 0px ;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0;
+    background-color: rgb(199, 199, 199);
+    outline: 0 none;
+    border: none;
+    cursor: pointer
+
+}
+
+.btn2 {
+    width: 100px;
+    height: 350px;
+    color: rgb(133, 133, 133);
+    border: 0px ;
+    transition: 1s;
+    float: right;
+
+}
+
+.btn:hover {
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+    outline: 0 none;
+    border: none;
+    cursor: pointer
+
+}
+
+.all {
+    position: relative;
+    left: 20%;
+}
+
+
+
