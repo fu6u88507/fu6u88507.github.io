@@ -1,62 +1,96 @@
+*{
+  margin: 0px auto;
+}
+
+.menu{
+  background-color: rgb(226, 226, 226);
+  height: 400px;
+}
+
 li{
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    margin: 10px 5px;
-    margin-bottom: 100px;
-    transition:2s ease-out;
-}
-
-li:hover{
-  opacity: 1;
-  opacity 2s ease-in-out;
-}
-}
-
-.container{
-  width: 100%;
-  margin: 0 auto;}
-
-.card{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  float:left;
-  margin: 10px;
-}
-img{
-  display: block;
-  width: 100%;
-  height: 100%;
-  position:relative
-}
-
-.info{
-
-  opacity: 0;
-  position: absolute;
-  box-sizing: border-box;
-  background-color: rgba(83, 83, 83, 0.3);
-  top: 0;
-  width: 100%;
-  height: 98%;
-  text-align: center;
-  transition:.2s ease-out;
-  
-}
-.info p{
-  color: rgb(255, 255, 255);
-}
-.info:hover{
-  margin-top: 0;
-  opacity: 1;  
-}
-
-.btu {
-  position:relative;
-  top: 40%;
-  color: rgb(119, 118, 118);
-  border: 0px;
-  background-color: rgb(207, 207, 207);
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
-  
+  padding: 10px;
+  transition:1s ease-out;
+}
+
+li a {
+    text-decoration:none;
+    opacity: 1;
+    color: rgb(88, 88, 88);
+    display: block;
+    transition: opacity 0.5s ease-in-out;
+}
+li a:hover{
+  opacity: 0.2;
+}
+
+.world{
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.world:hover{
+  opacity: 0.5;
+}
+
+
+
+.box{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 50px;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 50px;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a5a5a5;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

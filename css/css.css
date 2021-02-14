@@ -101,7 +101,7 @@ nav ul li a {
 
 nav ul li a:hover{
     opacity: 1;
-    opacity 2s ease-in-out;
+    opacity: 2s ease-in-out;
 }
 
 .wordA{
