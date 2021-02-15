@@ -3,8 +3,8 @@
 }
 
 .menu{
-  background-color: rgb(226, 226, 226);
-  height: 400px;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
 }
 
 li{
@@ -31,41 +31,50 @@ li a:hover{
   font-family: 'Archivo Black', sans-serif;
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
+  padding: 50px;
+}
+
+.word2{
+  height: 300px;
+  border: 1px solid black;
 }
 
 .world:hover{
   opacity: 0.5;
 }
 
+h6{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.5;
 
+}
 
 .box{
-  border: 1px solid black;
   text-align: center;
+  margin: 100px 0px 0px 0px ;
+  
 }
 
 .box1{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: white;
-  border: 1px solid black;
   display: inline-block;
-  padding: 50px;
 }
 
 .container {
   position: relative;
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
+  width: 300px;
+  height: 300px;
   display: inline-block;
-  padding: 50px;
+  margin: 10px;
 }
 
 .image {
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .overlay {
@@ -74,11 +83,16 @@ li a:hover{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   opacity: 0;
   transition: .5s ease;
   background-color: #a5a5a5;
+}
+
+.overlay a {
+  text-decoration: none;
+  color: white;
 }
 
 .container:hover .overlay {
@@ -93,4 +107,5 @@ li a:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
 }
